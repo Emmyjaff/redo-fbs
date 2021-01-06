@@ -1,0 +1,99 @@
+@media only screen and (max-width:800px){
+    .by-your-side .right-text h1 {
+        font-size: 36px !important;
+    }
+    .by-your-side .left-side {
+        width: 52%;
+        margin-left: -140px;
+        top: 379px;
+    }
+    .by-your-side .right-text {
+        width: 50%;
+        line-height: 1.4;
+        font-size: 18px;
+        right: 50px;
+    }
+    .icons {
+        font-family: var(--text-font);
+        font-size: 16px;
+    }
+    .contact-section .icons .icon-line-1 {
+        margin-right: 0px !important;
+    }
+    .contact-section .icons .has-icons {
+        width: 169px;
+        padding-right: 10px;
+    }
+    .sign-in {
+        width: 300px;
+        height: 650px;
+        padding: 30px;
+        margin-top: -61px;
+        margin-left: 20px;
+    }
+    .text-box {
+        width: 50%;
+        font-size: 12px !important;
+        margin-left: 361px;
+        margin-top: 251px;
+    }
+    .next-section .text-box h1 {
+        font-size: 24px;
+    }
+    .next-section .text img {
+        width: 24%;
+        margin-right: 20px;
+    }
+   
+    .next-section .text {
+        width: 90%;
+        font-size: 16px;
+    }
+    .image-space {
+        margin-top: 524px;
+        margin-left: 72px;
+        
+    }
+    .image-space img {
+        width: 100%;
+        height: 100%;
+        transform: scale( 0.7);
+        margin-left: -167px;
+    }
+
+    .award-section .holding-content .single-award {
+        width: 140px;
+    }
+    .single-award .awards-main {
+        font-size: 10px;
+    }
+    .single-award .awards-main::after {
+        width: 90%;
+    }
+    .single-award .awards-main::before {
+        width: 90%;
+    }
+    .awards-main.c1 {
+        /* display: none; */
+        margin: 10px;
+    } 
+    .middle-section .bottom-text h1::after {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 9px;
+        background-color: #659c33;
+        box-shadow: 0 0 30px #bff18f;
+        margin-top: 18px;
+    }
+   
+    .middle-section .bottom-text h1 {
+        font-size: 40px;
+    }
+    .middle-section .bottom-text p {
+        font-size: 20px;
+        margin-top: 40px;
+        padding-bottom: 80px;
+        line-height: 26px;
+    }
+}
